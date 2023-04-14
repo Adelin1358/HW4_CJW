@@ -1,0 +1,15 @@
+1. git commit -m "A"
+2. git branch feature
+3. git checkout feature
+4. git commit -m "B"
+5. git branch develop
+6. git checkout master
+7. git commit -m "C"
+8. git merge feature
+9. git commit -m "D"
+10. git checkout develop
+11. git commit -m "E"
+12. git checkout master
+13. git merge develop
+14. git commit -m "F"
+15. git checkout develop
